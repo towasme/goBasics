@@ -4,13 +4,6 @@ import (
 	"fmt"
 )
 
-type Course struct {
-	Name    string
-	Price   float64
-	IsFree  bool
-	UserIDs []uint
-	Classes map[uint]string
-}
 
 func main() {
 	Go := Course{
@@ -25,5 +18,19 @@ func main() {
 		},
 	}
 
-	fmt.Println(Go.Name)
+	// css := Course{Name: "css desde cero", IsFree: true}
+
+	// js := Course{}
+	// js.Name = "Curso de JavaScript"
+	// js.UserIDs = []uint{13, 19}
+
+	//fmt.Println(Go.Name)
+	//fmt.Printf("%+v\n", css)
+	//fmt.Printf("%+v\n", js)
+
+	//ya no es una funcion global como esta: PrintClasses(Go)
+	//es una funcion, sino un metodo de Course
+	Go.PrintClasses()
+	Go.ChangePrice(13.43)
+	fmt.Println(Go.Price)
 }
