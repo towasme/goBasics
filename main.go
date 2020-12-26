@@ -1,10 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
-
 func main() {
 	Go := Course{
 		Name:    "curso desde cero",
@@ -32,5 +27,10 @@ func main() {
 	//es una funcion, sino un metodo de Course
 	Go.PrintClasses()
 	Go.ChangePrice(13.43)
-	fmt.Println(Go.Price)
+	//fmt.Println(Go.Price)
+	//PrintTypesStringToInt()
+	//PrintTypesIntToString()
+	//justPrint()
+	//printInput()
+	PrintBufio()
 }
