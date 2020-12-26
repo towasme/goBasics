@@ -33,5 +33,10 @@ func main() {
 	//justPrint()
 	//printInput()
 	//PrintBufio()
-	whichNumberIsBigger()
+	//whichNumberIsBigger()
+	//helloWorldXTimes(5)
+	//semiWhile(10)
+	//semiWhileWithBreak(13)
+	//printArray()
+	sliceCapacity()
 }
