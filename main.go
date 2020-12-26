@@ -32,5 +32,6 @@ func main() {
 	//PrintTypesIntToString()
 	//justPrint()
 	//printInput()
-	PrintBufio()
+	//PrintBufio()
+	whichNumberIsBigger()
 }
