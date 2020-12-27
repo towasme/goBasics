@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 	Go := Course{
 		Name:    "curso desde cero",
@@ -38,5 +40,14 @@ func main() {
 	//semiWhile(10)
 	//semiWhileWithBreak(13)
 	//printArray()
-	sliceCapacity()
+	//sliceCapacity()
+	//createSlice()
+	//copyArray()
+	//newStruct(1, "inka", "mejia")
+	//inka := new(User)
+	//inka.set_name("sissi")
+	//fmt.Println(inka.nombre)
+	//crearTutor()
+	admin := Admin{"tomas"}
+	fmt.Println(auth(admin))
 }
